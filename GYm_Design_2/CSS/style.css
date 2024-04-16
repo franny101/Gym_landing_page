@@ -1,0 +1,132 @@
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+}
+
+/*GLOBAL*/
+.container{
+     width: 500px;
+    margin: auto;
+    overflow: hidden; 
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/*header*/
+header {
+    background: rgb(45, 59, 59);
+    color: #ffffff;
+    padding-top: 10px;
+    min-height : 70px;
+    border-bottom : red 3px solid;
+}
+
+header a{
+    color: white;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+header a:hover{
+    color: #13644e;
+    font-weight: bold;
+}
+
+header .highlight, header .good a{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+    background: url('../showcase.jpg');
+    color: #ffffff;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+
+#showcase p{
+    color: #f5f5f5;
+    font-size: 10px;
+    padding: 50px;
+}
+
+#showcase h1{
+    font-size: 40px;
+    margin-top: 160px;
+}
+
+/*boxes*/
+#boxes{
+    margin-top: 30px;
+}
+#boxes h4{
+    color: #e8491d;
+    text-align: center;
+    font-size: 20px;
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 200px;
+    padding: 10px;
+    margin-left: 200px;
+}
+
+#boxes .box img{
+    width: 50px;
+}
+
+/*dark*/
+#dark{
+    background: #35424a;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color:wheat ;
+}
+
+#power{
+    background: #304f47;
+    color: aliceblue;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer{
+    color: white;
+    background: #e84914;
+    text-align: center;
+    font-size: 20px;
+}
+
